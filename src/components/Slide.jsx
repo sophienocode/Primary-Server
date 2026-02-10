@@ -51,7 +51,13 @@ const Slide = () => {
                                     <p> { index + 1 } </p>
                                     <p> { slides.title } </p>
                                 </div>
-                                <div className=" flex-center gap-5 ">
+
+                                
+                                <a href={slides.href}
+                                target='_blank'
+                                rel="noopener noreferrer"
+                                >
+                                    <div className=" flex-center gap-5 ">
                                     <p> Preview Project  </p>
                                     <img
                                     className='md:size-10 size-7 ' 
@@ -59,6 +65,9 @@ const Slide = () => {
                                     alt="arrowupright" 
                                     />
                                 </div>
+                                </a>
+
+
                             </div>
                          </div>
                     </div>
