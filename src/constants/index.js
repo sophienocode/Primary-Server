@@ -2,8 +2,7 @@
 
 
 const slides = [
-    
-
+  
 
   {
     id: 1,
